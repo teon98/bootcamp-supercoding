@@ -1,0 +1,100 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+#content-text {
+  font-size: 13px;
+}
+
+.form-control {
+  border-radius: 10px;
+  width: 300px;
+  height: 35px;
+  margin-bottom: 5px;
+  border: 1px solid #e4e3e3;
+  outline: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.agree {
+  display: flex;
+  align-items: center;
+}
+
+.text-wrap {
+  justify-content: left;
+}
+.all {
+  background-color: #e4e3e3;
+  border-radius: 10px;
+  width: 300px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #e4e3e3;
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+input[type="checkbox"] {
+  width: 15px;
+}
+
+.agree {
+  width: 300px;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.sub {
+  font-size: 10px;
+  color: gray;
+}
+
+.button {
+  background-color: blue;
+  color: white;
+  width: 320px;
+  border: 1px solid blue;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.login {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+strong {
+  color: blue;
+}
+a {
+  color: gray;
+  justify-content: center;
+  text-decoration: none;
+}
+
+a:visited {
+  color: gray;
+  justify-content: center;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+  text-decoration: none;
+}
